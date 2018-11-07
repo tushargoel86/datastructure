@@ -1,0 +1,19 @@
+
+Steps:
+•	Divide the input into blocks of size = sqrt(input length)
+•	Calculate the sum of each block
+•	In the given range do the following steps:
+    o	Find the sum of elements from start range to the blocks to the overlapped block
+    o	Find the sum of overlapped blocks
+    o	Find the sum of elements in end blocks of range
+•	Return the sum of elements
+
+Complexity:
+  1) Calculating sum of each block -> O(n)
+  2) Finding sum of range:
+      1) start range: Maximum complexity is O(sqrt n) in worst case
+      2) end range: Maximum complexity is O(sqrt n) in worst case
+      3) sum of overlapped block: Maximum complexity is O(sqrt n) in worst case
+      total complexity is: 3 * O(sqrt n) in worst case
+  3) space:
+        need extra sqrt(n) space
