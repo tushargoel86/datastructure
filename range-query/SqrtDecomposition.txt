@@ -1,4 +1,10 @@
 
+Problem :
+Given an array of n elements. We need to answer q queries telling the sum of elements in range l to 
+r in the array.
+
+Solution:
+
 Steps:
 •	Divide the input into blocks of size = sqrt(input length)
 •	Calculate the sum of each block
