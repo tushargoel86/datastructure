@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class StringPermutatinAlgo {
+public class StringPermutation {
 
 	public static void main(String[] args) {
 		String input = "AABC";
