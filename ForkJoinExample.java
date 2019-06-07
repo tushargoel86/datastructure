@@ -13,7 +13,7 @@ import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.LongAdder;
 
-public class FileSize {
+public class ForkJoinExample {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
